@@ -1,0 +1,22 @@
+here,i have done a js file named main.js
+
+start the node server
+
+port is 3000
+
+1)use the html file enter_n.htm
+
+give the input value n
+
+ In a blog, get the author info of n'th post from the latest. (input: n)
+API : https://public-api.wordpress.com/rest/v1.1/sites/discover.wordpress.com/posts/
+
+2. goto localhost:3000/tags
+
+Get the tags statistics of posts he has written. (Count the occurences of tags in his posts)
+API : https://public-api.wordpress.com/rest/v1.1/sites/discover.wordpress.com/posts/?author={ID}
+
+3.  goto localhost:3000/tag_posts
+
+Get the latest post for the tag having maximum occurrence. (Return a post that is written by other author and not by the selected author)
+API : https://public-api.wordpress.com/rest/v1.1/sites/discover.wordpress.com/posts/?tag={tag_slug}
